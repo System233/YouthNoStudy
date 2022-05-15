@@ -13,11 +13,20 @@
 * 用法
 ```shell
 npm install -g System233/YouthNoStudy
-yns-do [...用户ID]
+yns-do [用户ID...]
 
 ```
+* 用法2
+```
+git clone https://github.com/System233/YouthNoStudy.git
+cd YouthNoStudy
+npm install
+npm run main [用户ID...]
+```
+
 
 * 示例
 ```shell
 yns-do 111 222 333 444
+npm run main [用户ID...]
 ```

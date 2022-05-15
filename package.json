@@ -1,0 +1,25 @@
+{
+  "name": "youth-no-study",
+  "version": "1.0.0",
+  "description": "青年不学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node ./dist/utils/main.js"
+  },
+  "bin": {
+    "yns-do":"./dist/utils/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/System233/Youth-No-Study"
+  },
+  "author": "System233",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.33"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
